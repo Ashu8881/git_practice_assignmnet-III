@@ -1,14 +1,14 @@
 let count=0;
 for(let i=0;i<=num;i++){
   if(num%i==0){
-   factor++
+  count++;
+ 
   }
 }if(count==2){
   console.log("is prime");
 }else {
 console.log("not prime")
 }
-}
-numcheck(12)
+
 //else is removed praveen should add that
 // aditya should add do the increament
